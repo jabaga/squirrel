@@ -5,8 +5,8 @@ using UnityEngine;
 public class Branch : MonoBehaviour
 {
     public bool isTemporary = false;
-    public bool isSwitchable = false;
     public float temporaryTime = 1f;
+    public bool isSwitchable = false;
     public float switchTime = 3f;
 
     float time = 0;
@@ -15,11 +15,14 @@ public class Branch : MonoBehaviour
     bool isDetached = false;
     Rigidbody2D body;
     new Collider2D collider;
+    SpriteRenderer spriteRenderer;
+    bool isActive = true;
 
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
         collider = GetComponent<Collider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     
     void Update()
@@ -31,7 +34,7 @@ public class Branch : MonoBehaviour
 
         if(isTemporary)
         {
-            if (time - timePlayerLanded >= temporaryTime)
+            if (timePlayerLanded > 0 && time - timePlayerLanded >= temporaryTime)
             {
                 Detach();
             }
@@ -39,10 +42,14 @@ public class Branch : MonoBehaviour
 
         if(isSwitchable)
         {
+            print(time - timeSwitched);
             if(time - timeSwitched >= switchTime)
             {
-                switchTime = time;
-                gameObject.SetActive(!gameObject.activeSelf);
+                timeSwitched = time;
+                isActive = !isActive;
+
+                collider.enabled = isActive;
+                spriteRenderer.enabled = isActive;
             }
         }
     }

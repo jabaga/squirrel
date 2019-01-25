@@ -36,8 +36,8 @@ public class PlayerData : MonoBehaviour
         }
     }
 
-    static int _maxLifes = 8;
-    static int _maxBullets = 50;
+    public static int _maxLifes = 8;
+    public static int _maxBullets = 50;
     static int _currentLifes = 5;
     static int _currentBullets = 0;
 
