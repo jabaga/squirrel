@@ -6,6 +6,8 @@ public class Guns : MonoBehaviour
 {
     public Transform GunPoint;
     public Transform Bullet;
+    public double fireRate = 0.5;
+    public double lastShot = 0.0;
     // Start is called before the first frame update
 
 
@@ -14,11 +16,16 @@ public class Guns : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1")) {
 
+
             Shoot();
         }
     }
 
     void Shoot() {
-        Instantiate(Bullet, GunPoint.position, GunPoint.rotation);
+        if (Time.time > fireRate + lastShot)
+        {
+            Instantiate(Bullet, GunPoint.position, GunPoint.rotation);
+            lastShot = Time.time;
+        }
     }
 }

@@ -17,7 +17,12 @@ public class BulletMove : MonoBehaviour
         Vector2 myPos = new Vector2(rb.position.x, rb.position.y + 1);
         Vector2 direction = target - myPos;
         direction.Normalize();
+
+
+
         rb.velocity = direction * speed;
+
+
     }
 
 
