@@ -174,6 +174,7 @@ public class EnemyTermite : MonoBehaviour
 
         // death animation
         body.bodyType = RigidbodyType2D.Dynamic;
+        body.constraints = RigidbodyConstraints2D.None;
         body.AddTorque(300);
         body.AddForce(Vector2.up * 900f);
         body.gravityScale = 5f;
