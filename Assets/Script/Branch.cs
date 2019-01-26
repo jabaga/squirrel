@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Branch : MonoBehaviour
 {
+    [Header("Temporary")]
     public bool isTemporary = false;
     public float temporaryTime = 1f;
+    public ParticleSystem temporaryParticle;
+    [Header("Switchable")]
     public bool isSwitchable = false;
     public float switchTime = 3f;
+    public ParticleSystem switchableParticle;
 
     float time = 0;
     float timePlayerLanded = -1;
@@ -23,6 +27,11 @@ public class Branch : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         collider = GetComponent<Collider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (isTemporary)
+            temporaryParticle.Play();
+        if (isSwitchable)
+            switchableParticle.Play();
     }
     
     void Update()
@@ -59,6 +68,8 @@ public class Branch : MonoBehaviour
 
         body.bodyType = RigidbodyType2D.Dynamic;
         collider.isTrigger = true;
+
+        temporaryParticle.Stop();
 
         Destroy(gameObject, 5f);
     }

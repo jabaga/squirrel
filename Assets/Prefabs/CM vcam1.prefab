@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5578951198427898673}
   - component: {fileID: 5578951198427898687}
   - component: {fileID: 5578951198427898672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_ZDamping: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 15
+  m_CameraDistance: 20
   m_DeadZoneWidth: 0.108
   m_DeadZoneHeight: 0.274
   m_DeadZoneDepth: 0
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 5578951198636283878}
   - component: {fileID: 5578951198636283879}
   - component: {fileID: 5578951197175733929}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CM vcam1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
