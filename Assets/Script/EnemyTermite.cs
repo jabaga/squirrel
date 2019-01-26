@@ -8,6 +8,7 @@ public class EnemyTermite : MonoBehaviour
     public Vector2 jumpForce;
     public float walkSpeed;
     public TermiteAction[] actions;
+    public Animator animator;
 
     Rigidbody2D body;
     float time = 0;
@@ -34,6 +35,25 @@ public class EnemyTermite : MonoBehaviour
             return;
 
         time += Time.deltaTime;
+
+        if (Math.Round(body.velocity.y, 1) != 0)
+        {
+            animator.SetBool("isJumping", true);
+        }
+        else
+        {
+            animator.SetBool("isJumping", false);
+        }
+
+        // the player is moving LEFT/RIGHT
+        if (Math.Round(body.velocity.x, 1) != 0)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+        }
 
         TermiteAction action = actions[currentAction];
         if((action.action == ACTION.STAY || action.action == ACTION.WALK_LEFT || action.action == ACTION.WALK_RIGHT) &&

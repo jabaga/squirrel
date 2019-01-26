@@ -40,9 +40,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     void FixedUpdate() {
-
-        Debug.Log(GroundCheck.position.y);
-        Debug.Log(OnGround);
         controller.Move(horizontalMove * Time.fixedDeltaTime, OnGround, jump);
         jump = false;
      //   animator.SetBool("IsJumping", jump);
