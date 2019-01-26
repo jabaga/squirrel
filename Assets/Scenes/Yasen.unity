@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9689738}
   - component: {fileID: 9689739}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,6 +290,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 733668970268465838, guid: 2625f90acefa49648bfb734ad44a92ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 733668970268465834, guid: 2625f90acefa49648bfb734ad44a92ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -438,7 +443,7 @@ GameObject:
   - component: {fileID: 376670190}
   - component: {fileID: 376670192}
   - component: {fileID: 376670191}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tree (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,7 +538,7 @@ GameObject:
   - component: {fileID: 417774236}
   - component: {fileID: 417774237}
   - component: {fileID: 417774238}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tree (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -637,7 +642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 487738310}
   - component: {fileID: 487738309}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Camera Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -703,7 +708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 511435278}
   - component: {fileID: 511435279}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -782,7 +787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 517679189}
   - component: {fileID: 517679190}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -869,6 +874,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 733668970268465838, guid: 2625f90acefa49648bfb734ad44a92ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 733668970268465834, guid: 2625f90acefa49648bfb734ad44a92ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -942,7 +952,7 @@ GameObject:
   - component: {fileID: 555783264}
   - component: {fileID: 555783266}
   - component: {fileID: 555783265}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tree (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1035,6 +1045,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098235752516121080, guid: 5d4e15e2d15f98749b2943e06bc8c605,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3098235752516121085, guid: 5d4e15e2d15f98749b2943e06bc8c605,
         type: 3}
@@ -1141,6 +1156,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3098235752079444583, guid: 5d4e15e2d15f98749b2943e06bc8c605,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098235752727818889, guid: 5d4e15e2d15f98749b2943e06bc8c605,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d4e15e2d15f98749b2943e06bc8c605, type: 3}
 --- !u!224 &569867794 stripped
@@ -1165,7 +1190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 582614433}
   - component: {fileID: 582614434}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1244,7 +1269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641348781}
   - component: {fileID: 641348782}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1323,7 +1348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647118421}
   - component: {fileID: 647118422}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1402,7 +1427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 648680900}
   - component: {fileID: 648680901}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1482,7 +1507,7 @@ GameObject:
   - component: {fileID: 652110259}
   - component: {fileID: 652110261}
   - component: {fileID: 652110260}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tree (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1655,7 +1680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 686210960}
   - component: {fileID: 686210961}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1735,6 +1760,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 733668970268465838, guid: 2625f90acefa49648bfb734ad44a92ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 733668970268465834, guid: 2625f90acefa49648bfb734ad44a92ac,
         type: 3}
@@ -1925,7 +1955,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 843526709}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Static
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1957,7 +1987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 849719961}
   - component: {fileID: 849719962}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2036,7 +2066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879364280}
   - component: {fileID: 879364281}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2116,7 +2146,7 @@ GameObject:
   - component: {fileID: 884836750}
   - component: {fileID: 884836752}
   - component: {fileID: 884836751}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tree (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2280,7 +2310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 912745508}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Termites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2312,7 +2342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 913216078}
   - component: {fileID: 913216079}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2507,7 +2537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 921717405}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2541,7 +2571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1013468085}
   - component: {fileID: 1013468086}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2633,7 +2663,7 @@ GameObject:
   - component: {fileID: 1055103111}
   - component: {fileID: 1055103113}
   - component: {fileID: 1055103112}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tree (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2728,7 +2758,7 @@ GameObject:
   - component: {fileID: 1123931746}
   - component: {fileID: 1123931748}
   - component: {fileID: 1123931747}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tree (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2885,11 +2915,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5041885909075459380, guid: d4e6ea6e172a0f34a93d4779208a2067,
-        type: 3}
-      propertyPath: GroundCheck
-      value: 
-      objectReference: {fileID: 743231686}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4e6ea6e172a0f34a93d4779208a2067, type: 3}
 --- !u!1 &1146614877
@@ -2903,7 +2928,7 @@ GameObject:
   - component: {fileID: 1146614878}
   - component: {fileID: 1146614880}
   - component: {fileID: 1146614879}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tree (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2994,7 +3019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1168836728}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dynamic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3026,7 +3051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1191542777}
   - component: {fileID: 1191542778}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3105,7 +3130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1250197690}
   - component: {fileID: 1250197691}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3267,6 +3292,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 733668970268465838, guid: 2625f90acefa49648bfb734ad44a92ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 733668970268465834, guid: 2625f90acefa49648bfb734ad44a92ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3375,6 +3405,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 733668970268465838, guid: 2625f90acefa49648bfb734ad44a92ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 733668970268465834, guid: 2625f90acefa49648bfb734ad44a92ac,
         type: 3}
@@ -3536,7 +3571,7 @@ GameObject:
   - component: {fileID: 1423148635}
   - component: {fileID: 1423148634}
   - component: {fileID: 1423148636}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3628,6 +3663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 733668970268465838, guid: 2625f90acefa49648bfb734ad44a92ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 733668970268465834, guid: 2625f90acefa49648bfb734ad44a92ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3717,6 +3757,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 733668970268465838, guid: 2625f90acefa49648bfb734ad44a92ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 733668970268465834, guid: 2625f90acefa49648bfb734ad44a92ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3790,6 +3835,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 733668970268465838, guid: 2625f90acefa49648bfb734ad44a92ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 733668970268465834, guid: 2625f90acefa49648bfb734ad44a92ac,
         type: 3}
@@ -3865,6 +3915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 733668970268465838, guid: 2625f90acefa49648bfb734ad44a92ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 733668970268465834, guid: 2625f90acefa49648bfb734ad44a92ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3937,7 +3992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1559287992}
   - component: {fileID: 1559287993}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4016,7 +4071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1582920407}
   - component: {fileID: 1582920408}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4172,6 +4227,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 733668970268465838, guid: 2625f90acefa49648bfb734ad44a92ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 733668970268465834, guid: 2625f90acefa49648bfb734ad44a92ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4246,6 +4306,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy Dynamic
       objectReference: {fileID: 0}
+    - target: {fileID: 452546388524078593, guid: 72b19a327fd74c14b94931c0be236f6e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 452546388524078597, guid: 72b19a327fd74c14b94931c0be236f6e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4313,7 +4378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1732467892}
   - component: {fileID: 1732467893}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4398,7 +4463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1797661973}
   - component: {fileID: 1797661974}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4476,7 +4541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1887429773}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4523,6 +4588,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 452546388524078593, guid: bdf78e18454f61c4f855473f1b02d318,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 452546388524078597, guid: bdf78e18454f61c4f855473f1b02d318,
         type: 3}
@@ -4591,7 +4661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1964455967}
   - component: {fileID: 1964455968}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4669,7 +4739,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2013914693}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Systems
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4704,7 +4774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2022396342}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4744,7 +4814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2028047601}
   - component: {fileID: 2028047602}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: treepart2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4975,6 +5045,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 731049792442929730, guid: cf53d8bc8d73569489e0434f08481266,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 731049792442929791, guid: cf53d8bc8d73569489e0434f08481266,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5113,6 +5188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main
       objectReference: {fileID: 0}
+    - target: {fileID: 5981801289284924402, guid: 70c877f5c66a88d4ca0d113eb9d1de9b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5694215561420077483, guid: 70c877f5c66a88d4ca0d113eb9d1de9b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5192,6 +5272,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CM vcam1
       objectReference: {fileID: 0}
+    - target: {fileID: 5578951198636283800, guid: 124f6d98d4a238745a7ecb6be851f517,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5578951198636283878, guid: 124f6d98d4a238745a7ecb6be851f517,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5257,6 +5342,11 @@ PrefabInstance:
       propertyPath: m_BoundingShape2D
       value: 
       objectReference: {fileID: 487738309}
+    - target: {fileID: 5578951198427898674, guid: 124f6d98d4a238745a7ecb6be851f517,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 124f6d98d4a238745a7ecb6be851f517, type: 3}
 --- !u!4 &5578951197175733931 stripped
@@ -5351,6 +5441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy Termite
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150633093483219188, guid: 4cf9c266d7b745841b567b13bfe83d08,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8150633093483219151, guid: 4cf9c266d7b745841b567b13bfe83d08,
         type: 3}
