@@ -11,6 +11,7 @@ public class Branch : MonoBehaviour
     [Header("Switchable")]
     public bool isSwitchable = false;
     public float switchTime = 3f;
+    public bool reversed = false;
     public ParticleSystem switchableParticle;
 
     float time = 0;
@@ -31,7 +32,16 @@ public class Branch : MonoBehaviour
         if (isTemporary)
             temporaryParticle.Play();
         if (isSwitchable)
+        {
             switchableParticle.Play();
+            if(reversed)
+            {
+                isActive = false;
+                collider.enabled = isActive;
+                spriteRenderer.enabled = isActive;
+            }
+
+        }
     }
     
     void Update()

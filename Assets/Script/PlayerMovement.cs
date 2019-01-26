@@ -21,10 +21,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GroundCheck.position.y < 0)
+        if (GroundCheck.position.y < 3)
         {
             OnGround = false;
-            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed *0.4f;
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed *0.2f;
         }
         if (GroundCheck.position.y > 0)
         {
