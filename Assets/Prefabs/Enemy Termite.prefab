@@ -54,12 +54,6 @@ MonoBehaviour:
     time: 1
   - action: 3
     time: 2
-  - action: 4
-    time: 2
-  - action: 0
-    time: 1
-  - action: 1
-    time: 1
 --- !u!212 &8150633093483219184
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -180,4 +174,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4

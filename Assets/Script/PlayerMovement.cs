@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public float runSpeed = 40f;
+    public Transform GroundCheck;
+    bool OnGround = true;
    // public Animator animator;
     float horizontalMove = 0f;
     bool jump = false;
@@ -19,7 +21,17 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        if (GroundCheck.position.y < 0)
+        {
+            OnGround = false;
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed *0.4f;
+        }
+        if (GroundCheck.position.y > 0)
+        {
+            OnGround = true;
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        }
+     //   horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
       //  animator.SetFloat("Speed",Mathf.Abs(horizontalMove));
         if (Input.GetButtonDown("Jump"))
         {
@@ -29,7 +41,9 @@ public class PlayerMovement : MonoBehaviour
     }
     void FixedUpdate() {
 
-        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
+        Debug.Log(GroundCheck.position.y);
+        Debug.Log(OnGround);
+        controller.Move(horizontalMove * Time.fixedDeltaTime, OnGround, jump);
         jump = false;
      //   animator.SetBool("IsJumping", jump);
     }
