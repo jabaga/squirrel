@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MiteWaveMovement : MonoBehaviour
+public class MiteWaveParticle : MonoBehaviour
 {
     public ParticleSystem miteWave;
     //public List<ParticleCollisionEvent> collisionEvents;
@@ -12,12 +12,13 @@ public class MiteWaveMovement : MonoBehaviour
 
     Rigidbody2D waveBody;
 
+    // Start is called before the first frame update
     private void Start()
     {
         miteWave = GetComponent<ParticleSystem>();
-        //collisionEvents = new List<ParticleCollisionEvent>();
     }
 
+    // Update is called once per frame
     void Update()
     {
         movement = new Vector2(movement.x, 0);
@@ -29,8 +30,7 @@ public class MiteWaveMovement : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Main.Instance.GameOver();
+            PlayerData.currentLifes--;
         }
     }
-
 }

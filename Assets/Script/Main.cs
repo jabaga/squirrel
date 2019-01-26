@@ -11,6 +11,8 @@ public class Main : Singleton<Main>
 
     public bool gameOver;
 
+    public Button startButton, quitButton;
+
     // (Optional) Prevent non-singleton constructor use.
     protected Main() {
        
@@ -18,8 +20,13 @@ public class Main : Singleton<Main>
 
     void Start()
     {
-        gameOver = false;
+        //Application.LoadLevel("GameStartScreen");
         UpdateUIData();
+    }
+
+    void NewGame()
+    {
+        //Application.LoadLevel("Ivan");
     }
 
     public void UpdateUIData()
@@ -32,6 +39,12 @@ public class Main : Singleton<Main>
     {
         gameOver = true;
         //display GameOverScreen
+        Application.LoadLevel("GameOverScreen");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
 }
