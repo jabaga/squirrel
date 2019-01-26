@@ -9,6 +9,8 @@ public class Main : Singleton<Main>
 
     public GameObject player;
 
+    public bool gameOver;
+
     // (Optional) Prevent non-singleton constructor use.
     protected Main() {
        
@@ -16,6 +18,7 @@ public class Main : Singleton<Main>
 
     void Start()
     {
+        gameOver = false;
         UpdateUIData();
     }
 
@@ -23,6 +26,12 @@ public class Main : Singleton<Main>
     {
         canvas.transform.Find("TextLives").GetComponent<Text>().text = "Lives: " + PlayerData.currentLifes.ToString();
         canvas.transform.Find("TextBullets").GetComponent<Text>().text = "Acorns: " + PlayerData.currentBullets.ToString();
+    }
+
+    public void GameOver()
+    {
+        gameOver = true;
+        //display GameOverScreen
     }
 
 }
