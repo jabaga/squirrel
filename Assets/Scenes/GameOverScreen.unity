@@ -437,7 +437,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 9054140765946457505}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 9054140765946457510}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -449,9 +449,51 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 9054140765946457505}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 9054140765946457508}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &9054140765946457508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9054140765129296202, guid: a372f8af49a5d4940bb44ed6db058e6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 9054140765946457505}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9054140765946457509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9054140765946457508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
+--- !u!1 &9054140765946457510 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9054140765754570460, guid: a372f8af49a5d4940bb44ed6db058e6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 9054140765946457505}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9054140765946457511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9054140765946457510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
