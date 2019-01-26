@@ -105,7 +105,6 @@ MonoBehaviour:
   GunPoint: {fileID: 1789219862}
   Bullet: {fileID: 3080693623179701243, guid: f657736b11b4de94fa156aae02c85155, type: 3}
   fireRate: 0.5
-  lastShot: 0
 --- !u!1001 &6213210158024550447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -121,12 +120,12 @@ PrefabInstance:
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.08
+      value: -4.629981
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.03
+      value: 3.3020768
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
@@ -180,6 +179,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460702, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
+      propertyPath: m_CrouchSpeed
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 1423596241926460702, guid: 8dbce593571768849839abdebcaee393,
+        type: 3}
       propertyPath: m_AirControl
       value: 1
       objectReference: {fileID: 0}
@@ -203,11 +207,21 @@ PrefabInstance:
       propertyPath: runSpeed
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 1423596241926460699, guid: 8dbce593571768849839abdebcaee393,
+        type: 3}
+      propertyPath: GroundCheck
+      value: 
+      objectReference: {fileID: 5041885909075459379}
     - target: {fileID: 1423596241926460697, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_GravityScale
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1423596241926460697, guid: 8dbce593571768849839abdebcaee393,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: af9b5629cb5c9e345a7d7f0ea17eebc6, type: 2}
     - target: {fileID: 1423596241926460697, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_Constraints
