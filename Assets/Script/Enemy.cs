@@ -16,7 +16,9 @@ public class Enemy : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
 
-        body.velocity = movement;
+
+        if (isMoving)
+            body.velocity = movement;
     }
 
     private void Update()
@@ -30,6 +32,14 @@ public class Enemy : MonoBehaviour
                 timeLastReversed = time;
                 
                 movement = new Vector2(-movement.x, -movement.y);
+
+                // flip
+                Vector2 newScale = transform.localScale;
+                if (movement.x != body.velocity.x)
+                    newScale.x = -newScale.x;
+
+                transform.localScale = newScale;
+
                 body.velocity = movement;
             }
         }

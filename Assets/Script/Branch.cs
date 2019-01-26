@@ -42,7 +42,6 @@ public class Branch : MonoBehaviour
 
         if(isSwitchable)
         {
-            print(time - timeSwitched);
             if(time - timeSwitched >= switchTime)
             {
                 timeSwitched = time;

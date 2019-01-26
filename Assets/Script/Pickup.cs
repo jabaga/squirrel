@@ -7,11 +7,11 @@ public class Pickup : MonoBehaviour
     public bool isLife = false;
     public bool isBullet = true;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            if(isLife)
+            if (isLife)
                 PlayerData.currentLifes++;
             if (isBullet)
                 PlayerData.currentBullets++;
