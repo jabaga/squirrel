@@ -18,7 +18,9 @@ public class PlayerData : MonoBehaviour
             if(_currentLifes == 0)
             {
                 // TODO die
+                
             }
+            Main.Instance.UpdateUIData();
         }
     }
 
@@ -32,8 +34,10 @@ public class PlayerData : MonoBehaviour
             if (value < 0)
                 value = 0;
 
-            _currentLifes = value;
+            _currentBullets = value;
+            Main.Instance.UpdateUIData();
         }
+
     }
 
     public static int _maxLifes = 8;
