@@ -142,21 +142,7 @@ public class EnemyTermite : MonoBehaviour
         // hit from below
         if (collision.gameObject.tag == "Player")
         {
-            isDead = true;
-            Destroy(gameObject, 2f);
-
-            // death animation
-            body.bodyType = RigidbodyType2D.Dynamic;
-            body.AddTorque(180);
-            body.AddForce(Vector2.up * 900f);
-            body.gravityScale = 5f;
-            body.mass = 1f;
-
-            Collider2D[] colliders = GetComponents<Collider2D>();
-            foreach(Collider2D col in colliders)
-            {
-                col.isTrigger = true;
-            }
+            Die();
         }
     }
 
@@ -172,6 +158,31 @@ public class EnemyTermite : MonoBehaviour
 
                 NextAction();
             }
+        }
+        else if(collision.gameObject.tag == "Bullet")
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        isDead = true;
+        Destroy(gameObject, 2f);
+
+        body.velocity = Vector2.zero;
+
+        // death animation
+        body.bodyType = RigidbodyType2D.Dynamic;
+        body.AddTorque(300);
+        body.AddForce(Vector2.up * 900f);
+        body.gravityScale = 5f;
+        body.mass = 1f;
+
+        Collider2D[] colliders = GetComponents<Collider2D>();
+        foreach (Collider2D col in colliders)
+        {
+            col.isTrigger = true;
         }
     }
 

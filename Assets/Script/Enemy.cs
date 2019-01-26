@@ -50,7 +50,10 @@ public class Enemy : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             PlayerData.currentLifes--;
-            
+        }
+        else if (collision.gameObject.tag == "Bullet")
+        {
+            Destroy(gameObject);
         }
     }
 }

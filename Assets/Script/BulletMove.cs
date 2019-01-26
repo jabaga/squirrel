@@ -7,23 +7,19 @@ public class BulletMove : MonoBehaviour
     public float speed = 20f;
     public Rigidbody2D rb;
  
-    // Start is called before the first frame update
-
     void Start()
-
     {
-        Vector2 target = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        Vector3 target = new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z);
         target = Camera.main.ScreenToWorldPoint(target);
-        Vector2 myPos = new Vector2(rb.position.x, rb.position.y + 1);
-        Vector2 direction = target - myPos;
+        Vector3 myPos = new Vector2(rb.position.x, rb.position.y + 1);
+        Vector3 direction = target - myPos;
+        direction.z = 0;
         direction.Normalize();
-
-
-
         rb.velocity = direction * speed;
-
-
     }
 
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
+    }
 }
