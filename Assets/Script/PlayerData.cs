@@ -15,12 +15,14 @@ public class PlayerData : MonoBehaviour
 
             _currentLifes = value;
 
-            if(_currentLifes == 0)
+            if (_currentLifes == 0)
             {
                 // TODO die
-                
+                Main.Instance.GameOver();
             }
-            Main.Instance.UpdateUIData();
+            else {
+                Main.Instance.UpdateUIData();
+            }
         }
     }
 
