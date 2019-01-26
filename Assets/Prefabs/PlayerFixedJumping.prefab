@@ -125,12 +125,12 @@ PrefabInstance:
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.04
+      value: 26.91
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.8
+      value: 9.9
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
@@ -180,7 +180,7 @@ PrefabInstance:
     - target: {fileID: 1423596241926460702, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_JumpForce
-      value: 800
+      value: 1200
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460702, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
@@ -215,7 +215,7 @@ PrefabInstance:
     - target: {fileID: 1423596241926460699, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: runSpeed
-      value: 200
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460699, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
@@ -224,8 +224,13 @@ PrefabInstance:
       objectReference: {fileID: 5041885909075459379}
     - target: {fileID: 1423596241926460697, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
+      propertyPath: m_Mass
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1423596241926460697, guid: 8dbce593571768849839abdebcaee393,
+        type: 3}
       propertyPath: m_GravityScale
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460697, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
