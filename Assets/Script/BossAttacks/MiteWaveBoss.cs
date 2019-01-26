@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MiteWaveParticle : MonoBehaviour
+public class MiteWaveBoss : MonoBehaviour
 {
     public ParticleSystem miteWave;
     //public List<ParticleCollisionEvent> collisionEvents;
@@ -16,13 +16,12 @@ public class MiteWaveParticle : MonoBehaviour
     private void Start()
     {
         miteWave = GetComponent<ParticleSystem>();
+        //boss.AddComponent(miteWave);
     }
 
-    // Update is called once per frame
     void Update()
     {
         movement = new Vector2(movement.x, 0);
-        // do not check for minimum speed, the wave is not always preserved on screen
         miteWave.transform.Translate(movement);
     }
 

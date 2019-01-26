@@ -28,7 +28,7 @@ public class Attacks : MonoBehaviour
 
     void MiteWaveAttack()
     {
-        var mwave = new MiteWaveParticle();
+        var mwave = new MiteWaveBoss();
         mwave.transform.Rotate(0, 90, 0);
 
         currentAttackCounter++;

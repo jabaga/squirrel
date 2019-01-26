@@ -16,6 +16,7 @@ public class BulletMove : MonoBehaviour
         direction.z = 0;
         direction.Normalize();
         rb.velocity = direction * speed;
+        rb.AddTorque(50);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
