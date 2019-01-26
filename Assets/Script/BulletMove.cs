@@ -21,7 +21,7 @@ public class BulletMove : MonoBehaviour
 
 
         rb.velocity = direction * speed;
-
+        Destroy(gameObject, 5);
 
     }
 
