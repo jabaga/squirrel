@@ -55,6 +55,7 @@ public class Branch : MonoBehaviour
         {
             if (timePlayerLanded > 0 && time - timePlayerLanded >= temporaryTime)
             {
+                GetComponent<AudioSource>().Play();
                 Detach();
             }
         }
