@@ -44,5 +44,53 @@ public class PlayerAnimation : MonoBehaviour
         {
             animator.SetBool("isShooting", false);
         }
+
+
+
+        // CHEAT CODES
+        frame++;
+
+        timeFromLastKeyPress += Time.deltaTime;
+
+        // a key was pressed
+        if (Input.inputString.Length > 0)
+        {
+            timeFromLastKeyPress = 0;
+            typedString += Input.inputString;
+        }
+
+        // run every X frames
+        if (frame == 30)
+        {
+            frame = 0;
+            return;
+        }
+
+        if (timeFromLastKeyPress >= timeToClear && typedString.Length > 0)
+        {
+            typedString = "";
+        }
+
+        // check for cheat code
+        if (typedString.Length > 0)
+        {
+            if (typedString == "fuck")
+            {
+                CheatLifes();
+                typedString = "";
+            }
+        }
     }
+
+    void CheatLifes()
+    {
+        PlayerData.currentLifes += 10;
+        PlayerData.currentBullets += 10;
+    }
+
+    float timeFromLastKeyPress = 0;
+    string typedString = "";
+    float timeToClear = 1;
+    int frame = 0;
+
 }

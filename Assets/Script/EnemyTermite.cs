@@ -183,6 +183,10 @@ public class EnemyTermite : MonoBehaviour
         {
             Die();
         }
+        else if (collision.gameObject.tag == "Player")
+        {
+            PlayerData.currentLifes--;
+        }
     }
 
     void Die()

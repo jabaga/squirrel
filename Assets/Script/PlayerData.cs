@@ -13,6 +13,16 @@ public class PlayerData : MonoBehaviour
             if (value < 0)
                 value = 0;
 
+            if (value < _currentLifes)
+            {
+                AnimationHelper.Instance.Blink(Main.Instance.player, Color.red, 0.7f);
+
+                SpriteRenderer sr = Camera.main.transform.GetChild(0).GetComponent<SpriteRenderer>();
+                sr.color = new Color(1,0,0,0.5f);
+                AnimationHelper.Instance.FadeOut(Camera.main.transform.GetChild(0).gameObject, .2f);
+                
+            }
+
             _currentLifes = value;
 
             if (_currentLifes == 0)
@@ -46,5 +56,4 @@ public class PlayerData : MonoBehaviour
     public static int _maxBullets = 50;
     static int _currentLifes = 5;
     static int _currentBullets = 0;
-
 }
