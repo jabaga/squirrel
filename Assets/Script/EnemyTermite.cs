@@ -181,6 +181,7 @@ public class EnemyTermite : MonoBehaviour
         }
         else if(collision.gameObject.tag == "Bullet")
         {
+           
             Die();
         }
         else if (collision.gameObject.tag == "Player")
@@ -192,6 +193,7 @@ public class EnemyTermite : MonoBehaviour
     void Die()
     {
         isDead = true;
+        GetComponent<AudioSource>().Play();
         Destroy(gameObject, 2f);
 
         body.velocity = Vector2.zero;
