@@ -28,7 +28,7 @@ public class PlayerData : MonoBehaviour
 
     public static int currentBullets
     {
-        get { return _currentLifes; }
+        get { return _currentBullets; }
         set
         {
             if (value > _maxBullets)
