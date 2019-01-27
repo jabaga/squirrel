@@ -22,8 +22,9 @@ public class Guns : MonoBehaviour
     void Shoot() {
         if (Time.time > fireRate + lastShot)
         {
+            GetComponent<AudioSource>().Play();
             lastShot = Time.time;
-
+            GetComponent<AudioSource>().Play();
             Collider2D bullet = Instantiate(Bullet, GunPoint.position, GunPoint.rotation).GetComponent<Collider2D>();
             Destroy(Instantiate(particlePrefab, GunPoint.position, Quaternion.Euler(0,0,-90f)), 5f);
 
