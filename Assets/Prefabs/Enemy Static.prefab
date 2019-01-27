@@ -97,6 +97,8 @@ MonoBehaviour:
   isMoving: 0
   movement: {x: 0, y: 0}
   timeToReverse: 2
+  explosionPrefab: {fileID: 7366221036458460602, guid: f7f197d86f4f2ee44a7fc79772061f94,
+    type: 3}
 --- !u!50 &5077188059195748848
 Rigidbody2D:
   serializedVersion: 4
