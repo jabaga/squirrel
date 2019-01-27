@@ -7,6 +7,7 @@ public class EventFoundMyGuns : MonoBehaviour
     public GameObject gunsHolder;
     public ToggleBadass toggleBadass;
     public GameObject particleToSpawn;
+    public GameObject objToActivate;
 
     bool activated = false;
 
@@ -28,6 +29,8 @@ public class EventFoundMyGuns : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             activated = true;
+
+            objToActivate.SetActive(true);
 
             Camera.main.GetComponent<CameraManager>().SetZoom(7, 0.7f);
 

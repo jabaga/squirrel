@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Attacks : MonoBehaviour
 {
@@ -98,8 +99,6 @@ public class Attacks : MonoBehaviour
         {
             currentAction = 0;
         }
-
-        print(actions[currentAction].action);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -118,11 +117,9 @@ public class Attacks : MonoBehaviour
                 Die();
                 return;
             }
-            print("a");
 
             if(hitBulletCount >= 3)
             {
-                print("b");
                 isDefending = true;
                 defenseTime = 0;
                 hitBulletCount = 0;
@@ -136,7 +133,12 @@ public class Attacks : MonoBehaviour
 
         AnimationHelper.Instance.Scale(gameObject, Vector3.zero, 3f);
 
-        Destroy(gameObject, 3f);
+        Invoke("SceneLoad", 4f);
+    }
+
+    void SceneLoad()
+    {
+        SceneManager.LoadScene("end_screen_scene", LoadSceneMode.Single);
     }
 
     [Serializable]
