@@ -34,7 +34,7 @@ public class EventFoundMyGuns : MonoBehaviour
 
             Camera.main.GetComponent<CameraManager>().SetZoom(7, 0.7f);
 
-            Main.Instance.player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            Main.player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
 
             Invoke("Badass", 1f);
             Invoke("Badass2", 4.2f);
@@ -47,7 +47,7 @@ public class EventFoundMyGuns : MonoBehaviour
         Destroy(gunsHolder);
         toggleBadass.badassMode = true;
 
-        Destroy(Instantiate(particleToSpawn, Main.Instance.player.transform.position, Quaternion.identity), 3f);
+        Destroy(Instantiate(particleToSpawn, Main.player.transform.position, Quaternion.identity), 3f);
 
         PlayerData.currentBullets += 20;
     }
@@ -59,6 +59,6 @@ public class EventFoundMyGuns : MonoBehaviour
 
     void Badass3()
     {
-        Main.Instance.player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+        Main.player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
     }
 }

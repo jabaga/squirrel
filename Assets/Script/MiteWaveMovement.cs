@@ -30,7 +30,7 @@ public class MiteWaveMovement : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             if (instantKill == true)
-                Main.Instance.GameOver();
+                Main.GameOver();
             else
                 PlayerData.currentLifes--;
         }

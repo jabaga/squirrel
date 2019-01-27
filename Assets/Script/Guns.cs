@@ -27,7 +27,7 @@ public class Guns : MonoBehaviour
             Collider2D bullet = Instantiate(Bullet, GunPoint.position, GunPoint.rotation).GetComponent<Collider2D>();
             Destroy(Instantiate(particlePrefab, GunPoint.position, Quaternion.Euler(0,0,-90f)), 5f);
 
-            Physics2D.IgnoreCollision(bullet, Main.Instance.player.GetComponent<Collider2D>());
+            Physics2D.IgnoreCollision(bullet, Main.player.GetComponent<Collider2D>());
 
             PlayerData.currentBullets--;
 
