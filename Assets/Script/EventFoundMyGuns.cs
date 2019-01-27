@@ -45,6 +45,8 @@ public class EventFoundMyGuns : MonoBehaviour
         toggleBadass.badassMode = true;
 
         Destroy(Instantiate(particleToSpawn, Main.Instance.player.transform.position, Quaternion.identity), 3f);
+
+        PlayerData.currentBullets += 20;
     }
 
     void Badass2()
