@@ -7,7 +7,7 @@ public class MiteWaveMovement : MonoBehaviour
     public ParticleSystem miteWave;
     //public List<ParticleCollisionEvent> collisionEvents;
     //keeping a list of the events so that they can eventually hide/destroy enemies
-
+    public bool instantKill = true;
     public Vector2 movement;
 
     Rigidbody2D waveBody;
@@ -29,7 +29,10 @@ public class MiteWaveMovement : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Main.Instance.GameOver();
+            if (instantKill == true)
+                Main.Instance.GameOver();
+            else
+                PlayerData.currentLifes--;
         }
     }
 

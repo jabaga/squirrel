@@ -295,7 +295,8 @@ public class AnimationHelper : Singleton<AnimationHelper> {
         // stop all coroutines
         foreach(var item in animatedGOs.Values)
         {
-            StopCoroutine(item);
+            if(item != null)
+                StopCoroutine(item);
         }
 
         animatedGOs.Clear();
