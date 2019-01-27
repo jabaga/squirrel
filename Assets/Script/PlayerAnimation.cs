@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour
 {
     public Animator animator;
+    public ToggleBadass toggleBadass;
 
     Rigidbody2D body;
     
@@ -35,7 +36,7 @@ public class PlayerAnimation : MonoBehaviour
             animator.SetBool("isRunning", false);
         }
 
-        if(Input.GetButton("Fire1") && PlayerData.currentBullets > 0)
+        if(Input.GetButton("Fire1") && PlayerData.currentBullets > 0 && toggleBadass.badassMode == true)
         {
             animator.SetBool("isShooting", true);
         }
