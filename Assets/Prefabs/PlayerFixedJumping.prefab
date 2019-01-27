@@ -307,7 +307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330855875}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.025, y: -0.3, z: 0}
+  m_LocalPosition: {x: 0.01, y: -0.168, z: 0}
   m_LocalScale: {x: 0.12552413, y: 0.13371685, z: 0.8302}
   m_Children:
   - {fileID: 331344353}
@@ -1664,6 +1664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 330953573}
+  toggleBadass: {fileID: 330953574}
 --- !u!1 &8240649808904083536
 GameObject:
   m_ObjectHideFlags: 0
@@ -6229,12 +6230,12 @@ PrefabInstance:
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.3
+      value: 3.56
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.8
+      value: -1.21
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
