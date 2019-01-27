@@ -22,7 +22,7 @@ public class Pickup : MonoBehaviour
             if (isLife)
                 PlayerData.currentLifes++;
             if (isBullet)
-                PlayerData.currentBullets++;
+                PlayerData.currentBullets += 2;
 
             GetComponent<AudioSource>().Play();
         }

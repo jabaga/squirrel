@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 19cce8c71fd75fc41b131cc6ddd6ea25
+guid: f4ce9d809f505f742820c003cb99a19a
 ScriptedImporter:
   fileIDToRecycleName:
     100000: Background_GO/Background_GO
@@ -125,7 +125,7 @@ ScriptedImporter:
       y: 1092
       width: 831
       height: 440
-    spriteID: e95043d7b5d52154bae9aa7dbdf12896
+    spriteID: c2b68b7cb98dbc944ac4e8684805c78f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,7 +146,7 @@ ScriptedImporter:
       y: 2071
       width: 566
       height: 764
-    spriteID: 9eb04da6ea43bc047a67dde69a8e7665
+    spriteID: d5c22e80c6ecf104e8752945b3d53a0d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -167,7 +167,7 @@ ScriptedImporter:
       y: 2843
       width: 593
       height: 467
-    spriteID: fdd46daaf92b1344188ae6f8d071b569
+    spriteID: 6335a5854e4774b4eae3a1be1f07d1f9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -188,7 +188,7 @@ ScriptedImporter:
       y: 1092
       width: 787
       height: 971
-    spriteID: 468d4ff9021c4a146ad224f444880d25
+    spriteID: 255253eeb178ff9438aa02c2a1f63bc3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -209,7 +209,7 @@ ScriptedImporter:
       y: 4
       width: 1920
       height: 1080
-    spriteID: bafade5d3145b964db3b24c2665bd7d1
+    spriteID: da0ef88df523c394091f3a97453a2080
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -238,35 +238,35 @@ ScriptedImporter:
     spriteName: "LISTEN, SON... HOME AIN\u2019T JUST WHERE  THE NUTS ARE STORED. HOME"
     isGroup: 0
     parentIndex: -1
-    spriteID: e95043d7b5d52154bae9aa7dbdf12896
+    spriteID: c2b68b7cb98dbc944ac4e8684805c78f
     layerID: 19
     mosaicPosition: {x: 799, y: 1092}
   - name: ONE LAST QUESTION, MR. IRONTAIL ... WHAT DOES HOME MEAN TO YOU?
     spriteName: ONE LAST QUESTION, MR. IRONTAIL ... WHAT DOES HOME MEAN TO YOU?
     isGroup: 0
     parentIndex: -1
-    spriteID: 9eb04da6ea43bc047a67dde69a8e7665
+    spriteID: d5c22e80c6ecf104e8752945b3d53a0d
     layerID: 18
     mosaicPosition: {x: 4, y: 2071}
   - name: NUT TV
     spriteName: NUT TV
     isGroup: 0
     parentIndex: -1
-    spriteID: fdd46daaf92b1344188ae6f8d071b569
+    spriteID: 6335a5854e4774b4eae3a1be1f07d1f9
     layerID: 15
     mosaicPosition: {x: 4, y: 2843}
   - name: Layer 4
     spriteName: Layer 4
     isGroup: 0
     parentIndex: -1
-    spriteID: 468d4ff9021c4a146ad224f444880d25
+    spriteID: 255253eeb178ff9438aa02c2a1f63bc3
     layerID: 8
     mosaicPosition: {x: 4, y: 1092}
   - name: Background
     spriteName: Background
     isGroup: 0
     parentIndex: -1
-    spriteID: bafade5d3145b964db3b24c2665bd7d1
+    spriteID: da0ef88df523c394091f3a97453a2080
     layerID: 1
     mosaicPosition: {x: 4, y: 4}
   characterData:
