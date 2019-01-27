@@ -35,7 +35,7 @@ public class PlayerAnimation : MonoBehaviour
             animator.SetBool("isRunning", false);
         }
 
-        if(Input.GetButton("Fire1"))
+        if(Input.GetButton("Fire1") && PlayerData.currentBullets > 0)
         {
             animator.SetBool("isShooting", true);
         }

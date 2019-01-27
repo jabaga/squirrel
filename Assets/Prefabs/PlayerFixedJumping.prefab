@@ -368,7 +368,7 @@ MonoBehaviour:
   - {fileID: 330855885}
   - {fileID: 330855891}
   - {fileID: 330855889}
-  badassMode: 1
+  badassMode: 0
 --- !u!1 &330855877
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,7 +386,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &331344357
 Transform:
   m_ObjectHideFlags: 0
@@ -680,7 +680,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &331344363
 Transform:
   m_ObjectHideFlags: 0
@@ -779,7 +779,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &331344365
 Transform:
   m_ObjectHideFlags: 0
@@ -975,7 +975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &331344369
 Transform:
   m_ObjectHideFlags: 0
@@ -1073,7 +1073,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &331344371
 Transform:
   m_ObjectHideFlags: 0
@@ -1650,6 +1650,7 @@ MonoBehaviour:
   fireRate: 0.5
   particlePrefab: {fileID: 6943921408694523029, guid: 40478d52e650c634292723445ecb2a61,
     type: 3}
+  toggleBadass: {fileID: 330953574}
 --- !u!114 &4861553269106252473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6342,6 +6343,11 @@ PrefabInstance:
       objectReference: {fileID: 6200000, guid: af9b5629cb5c9e345a7d7f0ea17eebc6, type: 2}
     - target: {fileID: 1423596241926460697, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1423596241926460697, guid: 8dbce593571768849839abdebcaee393,
+        type: 3}
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
@@ -6370,7 +6376,8 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.37087703
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1423596241926460703, guid: 8dbce593571768849839abdebcaee393, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8dbce593571768849839abdebcaee393, type: 3}
 --- !u!114 &5041885909075459377 stripped
 MonoBehaviour:

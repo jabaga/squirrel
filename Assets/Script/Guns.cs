@@ -8,12 +8,13 @@ public class Guns : MonoBehaviour
     public Transform Bullet;
     public double fireRate = 0.5;
     public GameObject particlePrefab;
+    public ToggleBadass toggleBadass;
 
     double lastShot = 0.0;
 
     void Update()
     {
-        if (Input.GetButton("Fire1")) {
+        if (Input.GetButton("Fire1") && PlayerData.currentBullets > 0 && toggleBadass.badassMode == true) {
             Shoot();
         }
     }
@@ -27,6 +28,8 @@ public class Guns : MonoBehaviour
             Destroy(Instantiate(particlePrefab, GunPoint.position, Quaternion.Euler(0,0,-90f)), 5f);
 
             Physics2D.IgnoreCollision(bullet, Main.Instance.player.GetComponent<Collider2D>());
+
+            PlayerData.currentBullets--;
 
             Destroy(bullet.gameObject, 6f);
         }
