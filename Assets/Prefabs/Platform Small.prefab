@@ -9445,7 +9445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3649b7ec21e69cb4085aaaa6be66f676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTemporary: 1
+  isTemporary: 0
   temporaryTime: 0.8
   temporaryParticle: {fileID: 8194831980978494493}
   isSwitchable: 0

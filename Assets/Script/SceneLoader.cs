@@ -7,10 +7,18 @@ public class SceneLoader : MonoBehaviour
 {
     public float timeToLoadScene;
     public string sceneToLoad;
+    public bool onEnable = false;
     
     void Start()
     {
-        Invoke("Load", timeToLoadScene);
+        if(onEnable == false)
+            Invoke("Load", timeToLoadScene);
+    }
+
+    private void OnEnable()
+    {
+        if (onEnable == true)
+            Invoke("Load", timeToLoadScene);
     }
 
     void Load()
