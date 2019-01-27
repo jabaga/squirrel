@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331344321}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331344323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331344325}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331344327}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331344329}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331344331}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 331344353}
   - component: {fileID: 318410723}
   - component: {fileID: 320077859}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: arm l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 331344355}
   - component: {fileID: 330953573}
   - component: {fileID: 330953574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: squirrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330855875}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: -0.178, z: 0}
+  m_LocalPosition: {x: -0.025, y: -0.3, z: 0}
   m_LocalScale: {x: 0.12552413, y: 0.13371685, z: 0.8302}
   m_Children:
   - {fileID: 331344353}
@@ -380,7 +380,7 @@ GameObject:
   - component: {fileID: 331344357}
   - component: {fileID: 318410727}
   - component: {fileID: 320077863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 331344359}
   - component: {fileID: 318410721}
   - component: {fileID: 320077857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: arm r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 331344361}
   - component: {fileID: 318410731}
   - component: {fileID: 320077867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,7 +674,7 @@ GameObject:
   - component: {fileID: 331344363}
   - component: {fileID: 318410725}
   - component: {fileID: 320077861}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cigar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -773,7 +773,7 @@ GameObject:
   - component: {fileID: 331344365}
   - component: {fileID: 318410735}
   - component: {fileID: 320077871}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: glasses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 331344367}
   - component: {fileID: 318410729}
   - component: {fileID: 320077865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -969,7 +969,7 @@ GameObject:
   - component: {fileID: 331344369}
   - component: {fileID: 318410739}
   - component: {fileID: 320077875}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gun r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 331344371}
   - component: {fileID: 318410733}
   - component: {fileID: 320077869}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gun l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,7 +1165,7 @@ GameObject:
   - component: {fileID: 331344373}
   - component: {fileID: 318410743}
   - component: {fileID: 320077879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nose mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1263,7 +1263,7 @@ GameObject:
   - component: {fileID: 331344375}
   - component: {fileID: 318410737}
   - component: {fileID: 320077873}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: leg l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1361,7 +1361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331344377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1393,7 +1393,7 @@ GameObject:
   - component: {fileID: 331344379}
   - component: {fileID: 318410741}
   - component: {fileID: 320077877}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1492,7 +1492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331344381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1522,7 +1522,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331344383}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1675,7 +1675,7 @@ GameObject:
   - component: {fileID: 8239089165860798694}
   - component: {fileID: 8113307159971195896}
   - component: {fileID: 8115182372583969606}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6229,12 +6229,12 @@ PrefabInstance:
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.56
+      value: 13.3
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.21
+      value: 8.8
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460700, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
@@ -6299,7 +6299,7 @@ PrefabInstance:
     - target: {fileID: 1423596241926460702, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
       propertyPath: m_WhatIsGround.m_Bits
-      value: 1079
+      value: 17463
       objectReference: {fileID: 0}
     - target: {fileID: 1423596241926460702, guid: 8dbce593571768849839abdebcaee393,
         type: 3}
