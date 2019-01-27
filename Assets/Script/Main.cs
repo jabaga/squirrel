@@ -1,15 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Main : Singleton<Main>
+public class Main : MonoBehaviour
 {
-    public Canvas canvas;
+    
+    public static GameObject player
+    {
+        get { return GameObject.FindGameObjectWithTag("Player"); }
+    }
+    public static Canvas canvas
+    {
+        get { return GameObject.FindObjectOfType<Canvas>(); }
+    }
 
-    public GameObject player;
-
-    public bool gameOver;
+    public static bool gameOver;
 
     public Button startButton, quitButton;
 
@@ -29,20 +36,20 @@ public class Main : Singleton<Main>
         //Application.LoadLevel("Ivan");
     }
 
-    public void UpdateUIData()
+    public static void UpdateUIData()
     {
         canvas.transform.Find("TextLives").GetComponent<Text>().text = "Lives: " + PlayerData.currentLifes.ToString();
         canvas.transform.Find("TextBullets").GetComponent<Text>().text = "Acorns: " + PlayerData.currentBullets.ToString();
     }
 
-    public void GameOver()
+    public static void GameOver()
     {
         gameOver = true;
         //display GameOverScreen
-        Application.LoadLevel("GameOverScreen");
+        SceneManager.LoadScene("GameOverScreen", LoadSceneMode.Single);
     }
 
-    public void QuitGame()
+    public static void QuitGame()
     {
         Application.Quit();
     }

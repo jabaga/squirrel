@@ -15,7 +15,7 @@ public class PlayerData : MonoBehaviour
 
             if (value < _currentLifes)
             {
-                AnimationHelper.Instance.Blink(Main.Instance.player, Color.red, 0.7f);
+                AnimationHelper.Instance.Blink(Main.player, Color.red, 0.7f);
 
                 SpriteRenderer sr = Camera.main.transform.GetChild(0).GetComponent<SpriteRenderer>();
                 sr.color = new Color(1,0,0,0.5f);
@@ -28,10 +28,10 @@ public class PlayerData : MonoBehaviour
             if (_currentLifes == 0)
             {
                 // TODO die
-                Main.Instance.GameOver();
+                Main.GameOver();
             }
             else {
-                Main.Instance.UpdateUIData();
+                Main.UpdateUIData();
             }
         }
     }
@@ -47,13 +47,13 @@ public class PlayerData : MonoBehaviour
                 value = 0;
 
             _currentBullets = value;
-            Main.Instance.UpdateUIData();
+            Main.UpdateUIData();
         }
 
     }
 
-    public static int _maxLifes = 8;
-    public static int _maxBullets = 50;
+    public static int _maxLifes = 20;
+    public static int _maxBullets = 500;
     static int _currentLifes = 5;
     static int _currentBullets = 0;
 }
