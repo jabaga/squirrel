@@ -11,13 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameStartScreen.unity
     guid: 61f0a28c3076b2741af8597eadf31db2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Yasen.unity
     guid: a750cbb8af9d5b544b0d8bab2e20fa3a
   - enabled: 1
     path: Assets/Scenes/GameOverScreen.unity
     guid: fc75dda79ea6ec746ac0050cdf33f419
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Ivan.unity
     guid: 2f226cb25e5de3147997eda6345b60e6
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 572db2d586cde8e49b0b7aa6831c6277
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 7e128494d52398a44bf0654144bbbff1
+  - enabled: 1
+    path: Assets/start and end scenes/start_screen_scene.unity
+    guid: b7dd83124a707ae41b3da01c8b196353
   m_configObjects: {}
