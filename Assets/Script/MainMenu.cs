@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenu : Singleton<MainMenu>
@@ -10,13 +11,13 @@ public class MainMenu : Singleton<MainMenu>
     // Start is called before the first frame update
     void Start()
     {
-        startButton.onClick.AddListener(StartNewGame);
-        quitButton.onClick.AddListener(QuitGame);
+        //startButton.onClick.AddListener(StartNewGame);
+        //quitButton.onClick.AddListener(QuitGame);
     }
 
-    void StartNewGame()
+    public void StartNewGame()
     {
-        Application.LoadLevel("Ivan");
+        SceneManager.LoadScene("start_screen_scene", LoadSceneMode.Single);
     }
 
     public void QuitGame()

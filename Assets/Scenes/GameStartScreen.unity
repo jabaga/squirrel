@@ -580,6 +580,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameOverScreenCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 9054140765542092722, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9054140765542092725, guid: a372f8af49a5d4940bb44ed6db058e6c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -685,25 +690,25 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9054140766545674896, guid: a372f8af49a5d4940bb44ed6db058e6c,
-        type: 3}
-      propertyPath: m_Text
-      value: New game
-      objectReference: {fileID: 0}
     - target: {fileID: 9054140766016770843, guid: a372f8af49a5d4940bb44ed6db058e6c,
         type: 3}
       propertyPath: m_Name
       value: TextNuts
       objectReference: {fileID: 0}
+    - target: {fileID: 9054140766016770843, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9054140766016770842, guid: a372f8af49a5d4940bb44ed6db058e6c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 9054140766016770842, guid: a372f8af49a5d4940bb44ed6db058e6c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 104
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 9054140766016770842, guid: a372f8af49a5d4940bb44ed6db058e6c,
         type: 3}
@@ -749,6 +754,62 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.023495909
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140766016770845, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: a96e3af3009c34241bab32b35a1d77f2,
+        type: 3}
+    - target: {fileID: 9054140765754570462, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1040559757}
+    - target: {fileID: 9054140765754570462, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765754570462, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1040559756}
+    - target: {fileID: 9054140765129296202, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140766318616832, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140766545674896, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_Text
+      value: New game
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a372f8af49a5d4940bb44ed6db058e6c, type: 3}

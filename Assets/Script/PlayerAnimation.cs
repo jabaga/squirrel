@@ -85,7 +85,7 @@ public class PlayerAnimation : MonoBehaviour
     void CheatLifes()
     {
         PlayerData.currentLifes += 10;
-        PlayerData.currentBullets += 10;
+        PlayerData.currentBullets += 20;
     }
 
     float timeFromLastKeyPress = 0;

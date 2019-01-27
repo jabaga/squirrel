@@ -221,11 +221,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 994042300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05af4fb0d2c6ead4cb5355cacfb74745, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3d3d9fc2e336642b35231470948f01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  restartButton: {fileID: 9054140765946457507}
-  quitButton: {fileID: 9054140765946457506}
+  startButton: {fileID: 0}
+  quitButton: {fileID: 0}
 --- !u!4 &994042302
 Transform:
   m_ObjectHideFlags: 0
@@ -584,32 +584,53 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.011764706
       objectReference: {fileID: 0}
+    - target: {fileID: 9054140765754570462, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 994042301}
+    - target: {fileID: 9054140765754570462, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765754570462, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 994042301}
+    - target: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartNewGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a372f8af49a5d4940bb44ed6db058e6c, type: 3}
---- !u!114 &9054140765946457506 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9054140765754570462, guid: a372f8af49a5d4940bb44ed6db058e6c,
-    type: 3}
-  m_PrefabInstance: {fileID: 9054140765946457505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9054140765946457510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &9054140765946457507 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9054140765129296204, guid: a372f8af49a5d4940bb44ed6db058e6c,
-    type: 3}
-  m_PrefabInstance: {fileID: 9054140765946457505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9054140765946457508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &9054140765946457508 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9054140765129296202, guid: a372f8af49a5d4940bb44ed6db058e6c,
