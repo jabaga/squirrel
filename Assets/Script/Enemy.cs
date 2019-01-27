@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     public bool isMoving = false;
     public Vector2 movement;
     public float timeToReverse = 2f;
+    public GameObject explosionPrefab;
 
     float time = 0;
     float timeLastReversed = 0;
@@ -50,10 +51,17 @@ public class Enemy : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             PlayerData.currentLifes--;
+
+            Destroy(gameObject);
         }
         else if (collision.gameObject.tag == "Bullet")
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnDestroy()
+    {
+        Destroy(Instantiate(explosionPrefab, transform.position, Quaternion.identity) as GameObject, 2f);
     }
 }
